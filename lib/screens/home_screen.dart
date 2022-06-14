@@ -15,11 +15,15 @@ class HomeScreen extends StatelessWidget {
       body: Center(
         child: Column(
           children: [
+            // Home Text
             Text(LocaleKeys.home_hello_txt.tr(),style: Theme.of(context).textTheme.headline1,),
-            Text(LocaleKeys.home_home_title.tr(),style: Theme.of(context).textTheme.headline1,),
+
+            // Change Language Button
             ElevatedButton(onPressed: (){
+              // if lang == en change to tr else change to en
               context.locale == Locale('en') ? context.setLocale(Locale('tr')) : context.setLocale(Locale('en'));
 
+              // Print current language
               print(context.locale.toString());
             }, child: Text(LocaleKeys.home_home_btn.tr()),),
           ],
