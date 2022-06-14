@@ -1,6 +1,7 @@
 {
   "home": {
     "home_title": "Home Screen",
-    "hello_txt": "Hello"
+    "hello_txt": "Hello",
+    "home_btn": "Turkish"
   }
 }
