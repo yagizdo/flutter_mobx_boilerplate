@@ -16,6 +16,7 @@ dependencies:
 
   # Localization
   easy_localization: ^3.0.0
+  flutter_screenutil: ^5.5.3+2
 
 dev_dependencies:
   flutter_test:
