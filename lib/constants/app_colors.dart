@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_screenutil/flutter_screenutil.dart';
 
 const black = Color(0xFF101823);
 const black_second = Colors.black;
@@ -15,7 +16,7 @@ class AppTheme {
     // Text
     textTheme: TextTheme(
       headline1: TextStyle(
-        fontSize: 24,
+        fontSize: 24.sp,
         fontWeight: FontWeight.w600,
         color: white,
   ),

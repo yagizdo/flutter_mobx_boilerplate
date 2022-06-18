@@ -2,6 +2,7 @@ import 'package:easy_localization/easy_localization.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_basic_template/constants/app_strings.dart';
 import 'package:flutter_basic_template/localizations/locale_keys.g.dart';
+import 'package:flutter_screenutil/flutter_screenutil.dart';
 
 class HomeScreen extends StatelessWidget {
   const HomeScreen({Key? key}) : super(key: key);
@@ -17,6 +18,9 @@ class HomeScreen extends StatelessWidget {
           children: [
             // Home Text
             Text(LocaleKeys.home_hello_txt.tr(),style: Theme.of(context).textTheme.headline1,),
+
+            // Sizedbox for padding
+            SizedBox(height: 20.h),
 
             // Change Language Button
             ElevatedButton(onPressed: (){

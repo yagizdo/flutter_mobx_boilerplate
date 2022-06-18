@@ -1,16 +1,44 @@
-# flutter_basic_template
+# Flutter - Basic Project Template
 
-A new Flutter project.
 
-## Getting Started
+## Run Locally
 
-This project is a starting point for a Flutter application.
+Clone the project
 
-A few resources to get you started if this is your first Flutter project:
+```bash
+  git clone https://github.com/yagizdo/flutter_basic_template
+```
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+Go to the project directory
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+```bash
+  cd Flutter-basic-template
+```
+
+Install dependencies
+
+```bash
+  flutter pub get
+```
+
+Run App
+
+```bash
+  flutter run
+```
+
+
+## What will be add :question:
+
+- [ ] Bloc or mobx for state managment
+- [ ] Auto route for route system
+
+
+##  Libraries I use in the template:
+- Easylocalization : https://pub.dev/packages/easy_localization
+- Flutter screenutil : https://pub.dev/packages/flutter_screenutil
+
+
+## Contributing
+
+Contributions are always welcome!
