@@ -13,7 +13,7 @@ mixin _$HomeViewModel on _HomeViewModel, Store {
       AsyncAction('_HomeViewModel.fetchPost', context: context);
 
   @override
-  Future<void> fetchPost() {
+  Future<List<Post>> fetchPost() {
     return _$fetchPostAsyncAction.run(() => super.fetchPost());
   }
 

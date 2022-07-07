@@ -8,18 +8,20 @@ class HomeViewModel = _HomeViewModel with _$HomeViewModel;
 
 abstract class _HomeViewModel with Store {
 
-  // Construckter for the view model
+  // Constructor with injected PostClient
   _HomeViewModel(PostClient client) : _client = client;
 
   // Post Client
  late final PostClient _client;
 
  // Posts List
+  @observable
   List<Post> posts = [];
 
  // Fetch Post
  @action
-  Future<void> fetchPost() async {
+  Future<List<Post>> fetchPost() async {
    posts = await _client.getPosts();
+   return posts;
  }
 }
