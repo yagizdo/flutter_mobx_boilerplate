@@ -4,8 +4,8 @@ import 'package:flutter_basic_template/constants/app_strings.dart';
 import 'package:flutter_basic_template/localizations/locale_keys.g.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 
-class HomeScreen extends StatelessWidget {
-  const HomeScreen({Key? key}) : super(key: key);
+class HomeView extends StatelessWidget {
+  const HomeView({Key? key}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
