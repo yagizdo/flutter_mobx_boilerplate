@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_basic_template/constants/app_colors.dart';
 import 'package:flutter_basic_template/constants/app_strings.dart';
-import 'package:flutter_basic_template/screens/home_screen.dart';
 
 import 'package:easy_localization/easy_localization.dart';
+import 'package:flutter_basic_template/screens/home_view.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 
 class MyApp extends StatelessWidget {
@@ -17,7 +17,7 @@ class MyApp extends StatelessWidget {
         locale: context.locale,
         localizationsDelegates: context.localizationDelegates,
         supportedLocales: context.supportedLocales,
-        home: HomeScreen(),
+        home: HomeView(),
       ),
     );
   }
