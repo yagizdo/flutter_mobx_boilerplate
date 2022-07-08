@@ -7,6 +7,7 @@ import 'package:flutter_basic_template/localizations/locale_keys.g.dart';
 import 'package:flutter_basic_template/models/home_view_model.dart';
 import 'package:flutter_basic_template/widgets/post_list.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
+import 'package:get_it/get_it.dart';
 
 import '../models/post.dart';
 
@@ -18,8 +19,8 @@ class HomeView extends StatefulWidget {
 }
 
 class _HomeViewState extends State<HomeView> {
-  // ViewModel
-  final HomeViewModel _homeViewModel = HomeViewModel(PostClient());
+  // ViewModel with locator
+  final HomeViewModel _homeViewModel = GetIt.I<HomeViewModel>();
 
   @override
   Widget build(BuildContext context) {

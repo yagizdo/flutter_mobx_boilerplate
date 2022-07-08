@@ -24,6 +24,7 @@ dependencies:
   # Mobx
   mobx: ^2.0.7
   flutter_mobx: ^2.0.6+1
+  get_it: ^7.2.0
 
 dev_dependencies:
   flutter_test:
