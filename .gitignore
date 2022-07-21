@@ -13,6 +13,11 @@
 .history
 .svn/
 
+# firebase
+firebase_options.dart
+firebase_app_id_file.json
+GoogleService-Info.plist
+
 # IntelliJ related
 *.iml
 *.ipr
