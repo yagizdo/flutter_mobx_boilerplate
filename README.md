@@ -1,4 +1,4 @@
-# Flutter - Basic Project Template
+# Flutter - Boilerplate project template with MobX
 
 
 ## Run Locally
@@ -30,13 +30,18 @@ Run App
 
 ## What will be add :question:
 
-- [ ] Bloc or mobx for state managment
 - [ ] Auto route for route system
 
 
 ##  Libraries I use in the template:
 - Easylocalization : https://pub.dev/packages/easy_localization
 - Flutter screenutil : https://pub.dev/packages/flutter_screenutil
+- Dio : https://pub.dev/packages/dio
+- Mobx : https://pub.dev/packages/mobx
+- Get it : https://pub.dev/packages/build_runner
+- Flutter Mobx : https://pub.dev/packages/flutter_mobx
+- Mobx Codegen : https://pub.dev/packages/mobx_codegen
+- Build Runner : https://pub.dev/packages/build_runne
 
 
 ## Contributing
